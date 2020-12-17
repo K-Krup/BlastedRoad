@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8901076555018564235
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8901076555018564233}
+  - component: {fileID: 8901076555018564234}
+  m_Layer: 0
+  m_Name: FieldGameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8901076555018564233
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8901076555018564235}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 12.696138, y: 2.768016, z: -33.060402}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8901076555018564234
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8901076555018564235}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5332945887445fd458a7af6693ddebc8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelLength: 40
+  difficilty: 1
+  waveFreqence: 7
+  hgm: {fileID: 8482721734983313063, guid: ad4ac9070e99dea449183c4ccc2f5f34, type: 3}
+  crew: []
+  road: {fileID: 6459840365735516527, guid: e2ff77d68786dd44a9c793c1bb4ebeee, type: 3}
+  desert: {fileID: 3214176462777388727, guid: b956494138fe7034189bc89c6f7ed1d3, type: 3}
+  enemy: {fileID: 4645559688747980384, guid: f427934ce86cdcd45b410a7836ea5f4b, type: 3}
+  squad: {fileID: 8681730893408352071, guid: e0642980e3fbadf478a7f2845936dcd0, type: 3}
+  nonStaticWorld: {fileID: 0}
+  turret: {fileID: 8600615678875133883, guid: 84c50a7da929a484982a0379d64791b8, type: 3}
+  rocketlaunch: {fileID: 4942788158299450298, guid: d41cb0dfc6d52b24a9bd3feaa24f79ad,
+    type: 3}
+  enemyCount: 0
